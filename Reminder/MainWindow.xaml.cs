@@ -10,7 +10,7 @@ namespace Reminder
 
     public partial class MainWindow : Window
     {
-        private OleDbConnection Connect = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = C:\\Users\\User\\Desktop\\Сдача\\Reminder\\Reminder.mdb"); // Строка подключения к базе данных Access
+        private OleDbConnection Connect = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = C:\\Reminder.mdb"); // Строка подключения к базе данных Access
         private string localDateTime = DateTime.Now.ToString("dd.MM.yyyy HH:mm:00"); // Шаблон текущего времени 
         public MainWindow()
         {
